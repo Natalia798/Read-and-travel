@@ -1,0 +1,24 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.button {
+    margin: 20px;
+    padding: 15px 25px;
+}
+
+.alignLeft {
+    float: left;
+    margin-left: 5%;
+}
+
+.alignRight {
+    float: right;
+    margin-right: 5%;
+}

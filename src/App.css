@@ -1,0 +1,13 @@
+.app {
+  text-align: center;
+  background-image: url('./assets/pattern-big.png');
+  background-repeat: repeat;
+  overflow: auto;
+}
+
+body, html, #root, .app {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+

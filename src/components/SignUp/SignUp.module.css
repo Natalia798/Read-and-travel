@@ -1,0 +1,160 @@
+.signUp {
+    background-color: white;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.signUp h1 {
+    font-size: 140%;
+    font-style: oblique;
+}
+
+.container {
+    flex: 1;
+    height: 90%;
+    width: 90%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    place-items: center;
+    flex-flow: column;
+    position: relative;
+    top: 45px;
+}
+
+.signUp hr {
+    background-color: rgb(94, 216, 121);
+    height: 1px;
+}
+
+.signUp input[type="text"],
+.signUp input[type="password"], 
+.signUp input[type="email"],
+.signUp input[type="date"] {
+    width: 80%;
+    height: 15px;
+    padding: 12px;
+    margin: 0 auto;
+    display: inline-block;
+    border: 1px solid #ccc;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    font-size: inherit;
+    font-style: italic;
+}
+
+.signUp input::placeholder {
+    font-weight: lighter;
+    color: black;
+}
+
+.signUp input.error {
+    font-size: inherit;
+    border: 1px solid red;
+    display: inline-block;
+}
+
+.error {
+    font-size: inherit;
+    color: red;
+    display: inline-block;
+}
+
+.errorFirebase {
+    font-size: inherit;
+    color: red;
+    display: block;
+    text-align: center;
+}
+
+.signUp label {
+    width: 80%;
+    padding: 12px;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+    font-size: inherit;
+    font-weight: bold;
+}
+
+.btn {
+    font-size: inherit;
+}
+
+.btn p {
+    font-size: inherit;
+    display: inline-block;
+}
+
+.signUp button {
+    background-color: #4CAF50;
+    color: black;
+    padding: 12px 18px;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    opacity: 0.9;
+    border-radius: 3px;
+    font-size: inherit;
+}
+
+.signUp button:hover {
+    opacity: 1;
+}
+
+.signUp .cancelBtn {
+    background-color: rgb(247, 71, 71);
+    padding: 12px 18px;
+    font-size: inherit;
+}
+
+.signUp .cancelBtn, 
+.signUp .signUpBtn {
+    float: left;
+    width: 50%;
+}
+
+.signUp .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 300px) {
+    .signUp .cancelBtn,
+    .signUp .signUpBtn,
+    .container {
+        width: 80%;
+    }
+}
+
+/* iPad */
+
+@media all and (width: 768px) and (height: 1024px) and (orientation:portrait) {
+    .signUp {
+        font-size: 160%
+    }
+}
+
+@media all and (width: 1024px) and (height: 768px) and (orientation:landscape) {
+    .signUp {
+        font-size: 160%
+    }
+}
+
+/* iPad Pro */
+
+@media all and (width: 1024px) and (height: 1366px) and (orientation:portrait) {
+    .signUp {
+        font-size: 200%
+    }
+}
+
+@media all and (width: 1366px) and (height: 1024px) and (orientation:landscape) {
+    .signUp {
+        font-size: 200%
+    }
+}

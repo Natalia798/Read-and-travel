@@ -1,0 +1,57 @@
+/* mobile */
+.searchLocation {
+    background-color: white;
+    box-shadow: 0 3px 3px #ccc;
+    border: 1px solid #eee;
+    padding: 20px 20px 40px;
+    border-radius: 8px;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    position: relative;
+    top: 45px;
+    width: 50%;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 15px 25px;
+    box-shadow: 0 9px #999;
+}
+
+
+@media screen and (max-width: 500px) {
+    .searchLocation {
+        width: 80%;
+    }
+}
+
+
+/* iPad */
+
+@media all and (width: 768px) and (height: 1024px) and (orientation:portrait) {
+    .signUp {
+        font-size: 160%
+    }
+}
+
+@media all and (width: 1024px) and (height: 768px) and (orientation:landscape) {
+    .signUp {
+        font-size: 160%
+    }
+}
+
+/* iPad Pro */
+
+@media all and (width: 1024px) and (height: 1366px) and (orientation:portrait) {
+    .signUp {
+        font-size: 230%
+    }
+}
+
+@media all and (width: 1366px) and (height: 1024px) and (orientation:landscape) {
+    .signUp {
+        font-size: 230%
+    }
+}

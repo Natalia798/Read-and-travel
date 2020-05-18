@@ -1,0 +1,25 @@
+.citySearch {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.citySearch .cityInput {
+    padding: 8px;
+    margin: 25px;
+    width: 80%;
+    border-radius: 5px;
+    font-size: 100%;
+}
+
+.citySearch .citySearchButton {
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+/*desktop*/
+@media (min-width: 500px) {
+    .citySearch .cityInput {
+        width: 30%;
+    }
+}

@@ -1,0 +1,17 @@
+.explorationContainer {
+    position: relative;
+    top: 45px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 3px 3px #ccc;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.explorationContainer .button {
+    padding: 10px 50px;
+    margin-top: 15px;
+}

@@ -1,0 +1,14 @@
+.simpleButton {
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+}
+
+.simpleButton:hover {
+    opacity: 0.8;
+}
